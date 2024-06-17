@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  app:
+    platform: linux/amd64
+    image: prashantbhu/dabble-with-devops-dockit:latest
+    ports:
+      - "8080:3000"
+    environment:
+      NODE_ENV: production
